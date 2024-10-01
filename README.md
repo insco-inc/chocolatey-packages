@@ -1,13 +1,40 @@
 # Chocolatey Packages
 
-~~~
-<!-- EDIT ME-->
+[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/kjxbyz/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/kjxbyz/chocolatey-packages)
+[Update status](https://gist.github.com/kjxbyz/6e62e5cab8fb28487b265620bd85755d)
 
-[![](https://ci.appveyor.com/api/projects/status/github/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/YOUR_GITHUB_USERNAME_HERE/chocolatey-packages)
-[Update status](https://gist.github.com/YOUR_GITHUB_USERNAME_HERE/YOUR_GIST_ID)
+## Packages
 
-<!-- REMOVE THE squiggles "~" surrounding this (this should not be a code block) -->
-~~~
+<table>
+  <tr>
+    <th>Package</th>
+    <th colspan="2" style="text-align: center">community.chocolatey.org</th>
+  </tr>
+  <tr>
+    <td>picguard</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/picguard">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/picguard">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>fafarunner</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/fafarunner">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/fafarunner">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>faforever</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/faforever">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/faforever">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Chocolatey Packages Template
 
@@ -51,7 +78,6 @@ For daily operations check out the AU packages [template README](https://github.
 1. Head into the `setup` folder and perform the proper steps for your choice of setup (or both if you plan to use both methods).
 1. Edit this README. Update the badges at the top.
 
-
 ### Recommendation on Auto Packaging
 
 AU provides more in the process of being completely automated, sending emails when things go wrong, and providing a nice report at the end. It doesn't have a bolt-on feeling to it that you see with Ketarin / ChocolateyPackageUdater, however the one thing it does lack in comparison is no visual feedback to seeing how searches for installers may be found. Other than that, it provides errors when things go wrong, where Ketarin doesn't consider anything that happens during "before run"/"post run updates" (where chocopkgup and checksumming occur) to be an error, even if those scripts error.
@@ -63,16 +89,19 @@ So for best visibility, enjoying the ease of using AppVeyor, and for a nice repo
 You want to bring in all of your packages into the proper folders. We suggest using some sort of diffing tool to look at the differences between your current solution and this solution and then making adjustments to it. Pay special attention to the setup folder.
 
 1. Bring over the following files to your package source repository:
- * `automatic\README.md`
- * `icons\README.md`
- * `ketarin\README.md`
- * `ketarin\_KetarinChocolateyTemplate.xml`
- * `manual\README.md`
- * `ops\*.*`
- * `setup\*.*`
- * `.appveyor.yml`
+
+* `automatic\README.md`
+* `icons\README.md`
+* `ketarin\README.md`
+* `ketarin\_KetarinChocolateyTemplate.xml`
+* `manual\README.md`
+* `ops\*.*`
+* `setup\*.*`
+* `.appveyor.yml`
+
 1. Inspect the following file and add the differences:
- * `.gitignore`
+
+* `.gitignore`
 
 ### Use Both Methodologies
 
