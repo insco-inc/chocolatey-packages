@@ -1,4 +1,5 @@
-Import-Module Chocolatey-AU
+$ErrorActionPreference = 'Stop'
+import-module au
 
 # add headers
 $headers = @{
