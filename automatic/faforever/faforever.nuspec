@@ -35,7 +35,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>FaForever</title>
-    <authors>kjxbyz</authors>
+    <authors>Insco LLC</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.chenyifaer.com/faforever</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
@@ -50,11 +50,11 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/cyf/faforever/issues</bugTrackerUrl>
     <tags>faforever</tags>
-    <summary>FaForever. a third-party music player that replaces Synology DS Audio client.</summary>
+    <summary>a third-party music player that replaces Synology DS Audio client.</summary>
     <description>
       # FaForever
 
-      &gt; A third-party music player that replaces Synology DS Audio client.
+      A third-party music player that replaces Synology DS Audio client.
     </description>
     <releaseNotes>
       [CHANGELOG](https://github.com/cyf/faforever/blob/main/CHANGELOG.md)
