@@ -38,19 +38,6 @@
       </a>
     </td>
   </tr>
-  <tr>
-    <td>faforever</td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/faforever">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/faforever">
-      </a>
-    </td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/faforever">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/faforever?include_prereleases">
-      </a>
-    </td>
-  </tr>
 </table>
 
 ## Install
