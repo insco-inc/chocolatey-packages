@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/picguard/picguard/releases/download/v1.0.6%2B427/picguard_1.0.6%2B427_windows_x64.exe'
+$url64      = 'https://github.com/picguard/picguard/releases/download/v1.0.7%2B429/picguard_1.0.7%2B429_windows_x64.exe'
 
 $arch = [System.Environment]::Is64BitOperatingSystem
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'picguard*'
 
-  checksum64    = '4ae526e1049521f82a716abbf4cc38f8b1cbbf57c27ff3db35b73caae2129881'
+  checksum64    = '8780aad0af0e2ee7eac59137f04570d6421bf5dcef785dbdcf93b5f95fb11099'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
