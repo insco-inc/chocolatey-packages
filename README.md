@@ -41,6 +41,19 @@ The repository is setup so that you can manage your packages entirely from the G
       </a>
     </td>
   </tr>
+  <tr>
+    <td>artify</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/artify">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/artify">
+      </a>
+    </td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/artify">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/artify?include_prereleases">
+      </a>
+    </td>
+  </tr>
 </table>
 
 ## Prerequisites
