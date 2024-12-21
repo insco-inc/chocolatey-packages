@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>0.0.1-alpha0</version>
+    <version>0.0.1-alpha1</version>
     <packageSourceUrl>https://github.com/kjxbyz/chocolatey-packages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>kjxbyz</owners>
@@ -37,18 +37,18 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>Artify</title>
     <authors>Insco LLC</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://www.picguard.app</projectUrl>
+    <projectUrl>https://www.artifylabs.org</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <iconUrl>https://raw.githubusercontent.com/picguard/picguard/main/logo/logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/artifylabs/artify/main/logo/logo.png</iconUrl>
     <copyright>2024 © kjxbyz</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>https://raw.githubusercontent.com/picguard/picguard/main/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/artifylabs/artify/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/picguard/picguard</projectSourceUrl>
+    <projectSourceUrl>https://github.com/artifylabs/artify</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://github.com/picguard/picguard/issues</bugTrackerUrl>
+    <bugTrackerUrl>https://github.com/artifylabs/artify/issues</bugTrackerUrl>
     <tags>artify</tags>
     <summary>Ideas, Painting &amp; Art.</summary>
     <description>
@@ -57,7 +57,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
       &gt;Ideas, Painting &amp; Art.
     </description>
     <releaseNotes>
-      [CHANGELOG](https://github.com/picguard/picguard/blob/main/CHANGELOG.md)
+      [CHANGELOG](https://github.com/artifylabs/artify/blob/main/CHANGELOG.md)
     </releaseNotes>
     <!-- =============================== -->
 

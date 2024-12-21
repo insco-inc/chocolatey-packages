@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/picguard/picguard/releases/download/v1.0.7%2B429/picguard_1.0.7%2B429_windows_x64.exe'
+$url64      = 'https://github.com/artifylabs/artify/releases/download/v0.0.1%2B1/artify_0.0.1%2B1_windows_x64.exe'
 
 $arch = [System.Environment]::Is64BitOperatingSystem
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'artify*'
 
-  checksum64    = '8780aad0af0e2ee7eac59137f04570d6421bf5dcef785dbdcf93b5f95fb11099'
+  checksum64    = 'a175b405f874bb4bb69dddab3ad92f8d00fec345266609bd339f7be4b03f39bf'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
