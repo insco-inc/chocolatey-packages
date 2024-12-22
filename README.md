@@ -12,19 +12,13 @@ The repository is setup so that you can manage your packages entirely from the G
 <table>
   <tr>
     <th>Package</th>
-    <th style="text-align: center">Stable</th>
-    <th style="text-align: center">Pre-release</th>
+    <th style="text-align: center">Version</th>
   </tr>
   <tr>
     <td>picguard</td>
     <td>
       <a href="https://community.chocolatey.org/packages/picguard">
         <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/picguard">
-      </a>
-    </td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/picguard">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/picguard?include_prereleases">
       </a>
     </td>
   </tr>
@@ -35,22 +29,12 @@ The repository is setup so that you can manage your packages entirely from the G
         <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/fafarunner">
       </a>
     </td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/fafarunner">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/fafarunner?include_prereleases">
-      </a>
-    </td>
   </tr>
   <tr>
     <td>artify</td>
     <td>
       <a href="https://community.chocolatey.org/packages/artify">
         <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/artify">
-      </a>
-    </td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/artify">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/artify?include_prereleases">
       </a>
     </td>
   </tr>
