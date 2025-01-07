@@ -50,7 +50,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: xQypItV4+lNWtdJLB7HJxX2MP1VU7SraVZ5GLIrjRvxaIvcsp7WZaXInKw6qCubG # https://ci.appveyor.com/tools/encrypt
+    secure: 3HL0ADelr9OmnVMdGQ5V6DPQ3poQ6CI+X19cnu6zXeM6f7eaiL0IATEgPPuHTHhk # https://ci.appveyor.com/tools/encrypt
 
 init:
 - git config --global user.email "kjxbyz888@outlook.com"
