@@ -34,11 +34,11 @@ environment:
 
   # Mail credentials - for error notifications
   mail_user:
-    secure: YOUR_EMAIL_ACCOUNT_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
-  mail_pass:
-    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
-  mail_server: smtp.sendgrid.net
-  mail_port: 465
+    secure: 9ezq0373BNdInG8KOYNHU/9Z4vwomu6flzhHDZQ7/QQ= # https://ci.appveyor.com/tools/encrypt
+#  mail_pass:
+#    secure: YOUR_EMAIL_PASSWORD_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
+#  mail_server: smtp.sendgrid.net
+#  mail_port: 465
   mail_enablessl: true
 
   # ID of the gist used to save run results - create a gist under the github_user (secret or not) and grab the id - https://gist.github.com/name/id
@@ -109,7 +109,7 @@ notifications:
   to: $(mail_user)
   on_build_success: false
   on_build_failure: true
-  on_build_status_changed: true
+  on_build_status_changed: false
 
 #on_finish:
 #- ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
