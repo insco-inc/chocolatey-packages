@@ -27,7 +27,7 @@ environment:
     secure: OrV8sBUF3drDVJsllYml4R97RKm9vDQ1fFbXDlCea6BEcLeJmO/Y0DamF9sghmd8X8lVgaebct2DrJTLBltXHkNMQQuqx3u/LkFiZTAGvjyO36J3q+3hMYSqgxMNXZqO # https://ci.appveyor.com/tools/encrypt
 
   # Github token to commit pushed packages to repository
-  github_user_repo: kjxbyz/chocolatey-packages
+  github_user_repo: insco-inc/chocolatey-packages
   github_api_key:
     secure: OrV8sBUF3drDVJsllYml4fdTfTDHofA+wlQ0UVENaPkQwp/YFv9rs/YCcW36H3yPvtRJJb9kLbwu4DmKOTtzGUc/Y+Qmq5eu9PLYLIYqfcHnJdqsGZrx7kCW258evO5d # https://ci.appveyor.com/tools/encrypt
 
