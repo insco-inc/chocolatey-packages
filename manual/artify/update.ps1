@@ -9,7 +9,7 @@ $headers = @{
 
 function global:au_GetLatest {
     $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/artifylabs/artify/releases/latest" -Headers $headers
-    $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '.')
+    $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '-alpha')
     $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.EndsWith("_windows_x64.exe")}).browser_download_url
 
     if (!$LatestURL64) {
