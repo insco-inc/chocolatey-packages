@@ -19,8 +19,8 @@ environment:
   au_test_groups: 1
 
   # GitHub releases
-  CYF_RELEASE_TOKEN:
-    secure: OrV8sBUF3drDVJsllYml4XEk94VMCA6B0weklM+CJVhJuPOfgZmi1ODKTl9JDO/N6XDcpRwC+4GXMWk2+GVPnU0Q+H3Kj1qUAUrnkVSh4UpYIQEKvQ58tNh/mObCl3ZE # https://ci.appveyor.com/tools/encrypt
+  ATY_RELEASE_TOKEN:
+    secure: OrV8sBUF3drDVJsllYml4fYnqGl0euu2fW6rH7R4MvwVYkjeJ0e0Pcld4TB2N364dMnTXa0Vjj3F8V7qJW0CqRMRgr9ODVSgpGq4xMMnmSuKg4wVHjABvamUcwlpjYQa # https://ci.appveyor.com/tools/encrypt
   FR_RELEASE_TOKEN:
     secure: OrV8sBUF3drDVJsllYml4bj4c7r2uCDXKrI7IU31Jg1EUGbtS0aGxVXvhfEnn+oj7xFDf1KJp8GJfxGbrx+U1JSVwUjLw8J7ZkePCtzgyNs45y8qk9ZlITiMTRF7+8vB # https://ci.appveyor.com/tools/encrypt
   PG_RELEASE_TOKEN:
@@ -29,7 +29,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: insco-inc/chocolatey-packages
   github_api_key:
-    secure: OrV8sBUF3drDVJsllYml4fdTfTDHofA+wlQ0UVENaPkQwp/YFv9rs/YCcW36H3yPvtRJJb9kLbwu4DmKOTtzGUc/Y+Qmq5eu9PLYLIYqfcHnJdqsGZrx7kCW258evO5d # https://ci.appveyor.com/tools/encrypt
+    secure: 5Ba7/ok++g1ECWJ0PWfvF15Bv20deNyHLvKGA7CbimshwnG9k2VDGGdIC/PH2bE7 # https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
