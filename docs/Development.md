@@ -1,5 +1,11 @@
 # Development
 
+# Install
+
+```powershell
+choco install au
+```
+
 # Build
 
 ```powershell
@@ -10,11 +16,11 @@ choco pack .\manual\artify\artify.nuspec
 
 ```powershell
 # Run as admini
-choco install artify --pre --version="0.0.1-alpha1" --source="C:\Users\ying\workspace\insco-inc\chocolatey-packages"
+choco install artify --pre --version="0.0.1-alpha2" --source="C:\Users\ying\workspace\insco-inc\chocolatey-packages"
 ```
 
 # Push
 
 ```powershell
-choco push .\artify.0.0.1-alpha1.nupkg --source https://push.chocolatey.org/ -d
+choco push .\artify.0.0.1-alpha2.nupkg --api-key=<api key> --source https://push.chocolatey.org/ -d
 ```
