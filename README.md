@@ -38,6 +38,14 @@ The repository is setup so that you can manage your packages entirely from the G
       </a>
     </td>
   </tr>
+  <tr>
+    <td>kitify</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/kitify">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/kitify">
+      </a>
+    </td>
+  </tr>
 </table>
 
 ## Prerequisites
