@@ -26,7 +26,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>0.0.1-alpha0</version>
+    <version>0.0.1-alpha1</version>
     <packageSourceUrl>https://github.com/insco-inc/chocolatey-packages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>kjxbyz</owners>
@@ -41,7 +41,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
     <iconUrl>https://raw.githubusercontent.com/kitifylabs/kitify/main/logo/logo.png</iconUrl>
-    <copyright>2024 © kjxbyz</copyright>
+    <copyright>2025 © kjxbyz</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://raw.githubusercontent.com/kitifylabs/kitify/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
@@ -50,11 +50,11 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/kitifylabs/kitify/issues</bugTrackerUrl>
     <tags>kitify</tags>
-    <summary>Ideas, Painting &amp; Art.</summary>
+    <summary>All-in-one tools, boosting your efficiency!</summary>
     <description>
       # Kitify
 
-      &gt;Ideas, Painting &amp; Art.
+      >All-in-one tools, boosting your efficiency!
     </description>
     <releaseNotes>
       [CHANGELOG](https://github.com/kitifylabs/kitify/blob/main/CHANGELOG.md)
