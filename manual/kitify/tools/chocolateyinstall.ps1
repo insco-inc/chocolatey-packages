@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/artifylabs/artify/releases/download/v0.0.1%2B1/artify_0.0.1%2B1_windows_x64.exe'
+$url64      = 'https://github.com/kitifylabs/kitify/releases/download/v0.0.1%2B1/kitify_0.0.1%2B1_windows_x64.exe'
 
 $arch = [System.Environment]::Is64BitOperatingSystem
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'kitify*'
 
-  checksum64    = 'a175b405f874bb4bb69dddab3ad92f8d00fec345266609bd339f7be4b03f39bf'
+  checksum64    = '496a5e33c8584fa89c8a9d29254ceab264ea13d22b52c7822ae0714db88b4187'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
