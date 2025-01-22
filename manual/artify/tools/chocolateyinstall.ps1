@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/artifylabs/artify/releases/download/v0.0.1%2B2/artify_0.0.1%2B2_windows_x64.exe'
+$url64      = 'https://github.com/artifylabs/artify/releases/download/v0.0.1%2B3/artify_0.0.1%2B3_windows_x64.exe'
 
 $arch = [System.Environment]::Is64BitOperatingSystem
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'artify*'
 
-  checksum64    = 'afbaaccbd3ab46ef073129438005bfc0c6aa3fbe607c667f916a1f6c69544371'
+  checksum64    = '74d84e960bce26011aa789faf693529f10adbc9ef34bcc8b21fd32c520eb88e0'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
