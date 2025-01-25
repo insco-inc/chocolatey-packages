@@ -35,7 +35,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>FaFa Runner</title>
-    <authors>Insco Ltd</authors>
+    <authors>Insco</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.fafarunner.com</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
@@ -53,7 +53,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <summary>Enjoy smooth gameplay, stunning graphics, and endless fun.</summary>
     <description>
       # FaFa Runner
-    
+
       Step into the enchanting world of FaFa Runner: Dawn Legends, where an epic adventure awaits! Developed using Flutter and the Flame engine, this RPG delivers a seamless gaming experience with stunning visual effects.
 
       Embark on your journey as a brave adventurer, explore mysterious lands, uncover hidden secrets, and face endless challenges. With rich story-driven quests and diverse character progression systems, every battle offers a unique sense of achievement.

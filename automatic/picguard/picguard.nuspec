@@ -35,7 +35,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>PicGuard</title>
-    <authors>Insco Ltd</authors>
+    <authors>Insco</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.picguard.app</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
@@ -55,11 +55,11 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
       # PicGuard
 
       1. Introducing PicGuard - the ultimate solution for securing and customizing your digital photos. With our app, you can easily add watermarks to your images to protect your creative work and maintain your privacy.
-      
+
       2. PicGuard offers robust privacy protection features, ensuring your personal and sensitive information remains safeguarded. It's highly customizable, allowing you to personalize watermarks with various fonts, styles, and designs to suit your needs.
-      
+
       3. Accessible on web, mobile, and desktop, you can seamlessly integrate and manage your watermarking tasks across all your devices. PicGuard, as an open-source tool, it's not only free but also continuously improved by a community of developers dedicated to providing the best user experience.
-      
+
       4. Download PicGuard today and take control of your photo security and personalization like never before!
     </description>
     <releaseNotes>
