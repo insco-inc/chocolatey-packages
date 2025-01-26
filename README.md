@@ -2,10 +2,9 @@
 
 [Update status](https://gist.github.com/kjxbyz/6e62e5cab8fb28487b265620bd85755d)
 [Packages are reviewed in queue](https://ch0.co/moderation)
-[chocolatey/insco](https://chocolatey.org/profiles/insco)
 
-This repository contains [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
-The repository is setup so that you can manage your packages entirely from the GitHub web interface (using AppVeyor to update and push packages) and/or using the local repository copy.
+> This repository contains [chocolatey automatic packages](https://chocolatey.org/docs/automatic-packages).  
+> The repository is setup so that you can manage your packages entirely from the GitHub web interface (using AppVeyor to update and push packages) and/or using the local repository copy.
 
 ## Packages
 
@@ -150,4 +149,4 @@ Add your own packages now, with this in mind:
 
 ## License
 
-[MIT](./LICENSE.md)
+[MIT](./LICENSE)
