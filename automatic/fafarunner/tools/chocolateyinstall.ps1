@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/FaFaRunner/FaFaRunner/releases/download/v1.0.11%2B377/fafarunner_1.0.11%2B377_windows_x64.exe'
+$url64      = 'https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.0.0%2B378/fafarunner_2.0.0%2B378_windows_x64.exe'
 
 $arch = [System.Environment]::Is64BitOperatingSystem
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'fafarunner*'
 
-  checksum64    = '1f4eeefe805fe62bd3e535dbbca6d4d77d60303752a9f5690b23ec865969b687'
+  checksum64    = '3ff96588dd53e8b54cb8c5e6e38d9b107a7bb91cd55d6a7e1e43d540fea63fa1'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
