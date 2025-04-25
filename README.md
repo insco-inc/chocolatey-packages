@@ -22,6 +22,14 @@
     </td>
   </tr>
   <tr>
+    <td>picguard-pro</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/picguard-pro">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/picguard-pro">
+      </a>
+    </td>
+  </tr>
+  <tr>
     <td>fafarunner</td>
     <td>
       <a href="https://community.chocolatey.org/packages/fafarunner">
