@@ -22,7 +22,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about this package, although id and version have ties back to the software -->
     <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
     <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>picguard</id>
+    <id>picguard-pro</id>
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
@@ -34,7 +34,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>PicGuard</title>
+    <title>PicGuard Pro</title>
     <authors>Insco</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.picguard.app</projectUrl>
@@ -52,15 +52,15 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <tags>picguard</tags>
     <summary>Your pictures, your signature.</summary>
     <description>
-      # PicGuard
+      # PicGuard Pro
 
-      1. Introducing PicGuard - the ultimate solution for securing and customizing your digital photos. With our app, you can easily add watermarks to your images to protect your creative work and maintain your privacy.
+      1. Introducing PicGuard Pro - the ultimate solution for securing and customizing your digital photos. With our app, you can easily add watermarks to your images to protect your creative work and maintain your privacy.
 
-      2. PicGuard offers robust privacy protection features, ensuring your personal and sensitive information remains safeguarded. It's highly customizable, allowing you to personalize watermarks with various fonts, styles, and designs to suit your needs.
+      2. PicGuard Pro offers robust privacy protection features, ensuring your personal and sensitive information remains safeguarded. It's highly customizable, allowing you to personalize watermarks with various fonts, styles, and designs to suit your needs.
 
-      3. Accessible on web, mobile, and desktop, you can seamlessly integrate and manage your watermarking tasks across all your devices. PicGuard, as an open-source tool, it's not only free but also continuously improved by a community of developers dedicated to providing the best user experience.
+      3. Accessible on web, mobile, and desktop, you can seamlessly integrate and manage your watermarking tasks across all your devices. PicGuard Pro, as an open-source tool, it's not only free but also continuously improved by a community of developers dedicated to providing the best user experience.
 
-      4. Download PicGuard today and take control of your photo security and personalization like never before!
+      4. Download PicGuard Pro today and take control of your photo security and personalization like never before!
     </description>
     <releaseNotes>
       [CHANGELOG](https://github.com/picguard/picguard/blob/main/CHANGELOG.md)

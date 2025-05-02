@@ -10,7 +10,7 @@ $headers = @{
 function global:au_GetLatest {
     $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/picguard/picguard/releases/latest" -Headers $headers
     $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '.')
-    $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.StartsWith("picguard-") -and $_.name.EndsWith("-windows-setup-x64.exe")}).browser_download_url
+    $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.StartsWith("picguard-pro-") -and $_.name.EndsWith("-windows-setup-x64.exe")}).browser_download_url
 
     if (!$LatestURL64) {
         throw "64bit URL is missing!"
@@ -33,7 +33,7 @@ function global:au_SearchReplace {
             "(?i)(^\s*checksumType64\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType64)'"
         }
 
-#        "picguard.nuspec" = @{
+#        "picguard-pro.nuspec" = @{
 #            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`$1$($Latest.ReleaseNotes)`$2"
 #        }
     }
