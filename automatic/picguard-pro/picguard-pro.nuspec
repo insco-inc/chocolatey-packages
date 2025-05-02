@@ -49,7 +49,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/picguard/picguard/issues</bugTrackerUrl>
-    <tags>picguard</tags>
+    <tags>picguard picguardpro picguard-pro</tags>
     <summary>Your pictures, your signature.</summary>
     <description>
       # PicGuard Pro
