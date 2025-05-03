@@ -51,20 +51,15 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <bugTrackerUrl>https://github.com/picguard/picguard/issues</bugTrackerUrl>
     <tags>picguard picguardpro picguard-pro</tags>
     <summary>Your pictures, your signature.</summary>
-    <description>
-      # PicGuard Pro
+    <description><![CDATA[# PicGuard Pro
 
-      1. Introducing PicGuard Pro - the ultimate solution for securing and customizing your digital photos. With our app, you can easily add watermarks to your images to protect your creative work and maintain your privacy.
-
-      2. PicGuard Pro offers robust privacy protection features, ensuring your personal and sensitive information remains safeguarded. It's highly customizable, allowing you to personalize watermarks with various fonts, styles, and designs to suit your needs.
-
-      3. Accessible on web, mobile, and desktop, you can seamlessly integrate and manage your watermarking tasks across all your devices. PicGuard Pro, as an open-source tool, it's not only free but also continuously improved by a community of developers dedicated to providing the best user experience.
-
-      4. Download PicGuard Pro today and take control of your photo security and personalization like never before!
-    </description>
-    <releaseNotes>
-      [CHANGELOG](https://github.com/picguard/picguard/blob/main/CHANGELOG.md)
-    </releaseNotes>
+## Features
+- Introducing **PicGuard Pro** - the ultimate solution for securing and customizing your digital photos. With our app, you can easily add watermarks to your images to protect your creative work and maintain your privacy.
+- **PicGuard Pro** offers robust privacy protection features, ensuring your personal and sensitive information remains safeguarded. It's highly customizable, allowing you to personalize watermarks with various fonts, styles, and designs to suit your needs.
+- Accessible on web, mobile, and desktop, you can seamlessly integrate and manage your watermarking tasks across all your devices. **PicGuard Pro**, as an open-source tool, it's not only free but also continuously improved by a community of developers dedicated to providing the best user experience.
+- Download **PicGuard Pro** today and take control of your photo security and personalization like never before!
+]]></description>
+    <releaseNotes>https://github.com/PicGuard/PicGuard/blob/main/CHANGELOG.md</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->
