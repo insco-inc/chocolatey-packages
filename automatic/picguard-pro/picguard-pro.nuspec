@@ -40,7 +40,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <projectUrl>https://www.picguard.app</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <iconUrl>https://raw.githubusercontent.com/picguard/picguard/main/logo/logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/picguard/picguard/main/logo/pro/logo.png</iconUrl>
     <copyright>2024 © kjxbyz</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://raw.githubusercontent.com/picguard/picguard/main/LICENSE</licenseUrl>

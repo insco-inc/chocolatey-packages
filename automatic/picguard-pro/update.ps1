@@ -9,7 +9,8 @@ $headers = @{
 
 function global:au_GetLatest {
     $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/picguard/picguard/releases/latest" -Headers $headers
-    $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '.')
+    $LatestTag = $LatestRelease.tag_name
+    $LatestVersion = $LatestTag.Replace('v', '').Replace('+', '.')
     $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.StartsWith("picguard-pro-") -and $_.name.EndsWith("-windows-setup-x64.exe")}).browser_download_url
 
     if (!$LatestURL64) {
@@ -20,8 +21,10 @@ function global:au_GetLatest {
 
     @{
         URL64        = $LatestURL64
+        Tag          = $LatestTag
         Version      = $LatestVersion
-        ReleaseNotes = $LatestRelease.html_url
+        ReleaseNotes = $LatestRelease.body
+        IconUrl      = "https://raw.githubusercontent.com/picguard/picguard/$($LatestTag)/logo/pro/logo.png"
     }
 }
 
@@ -33,9 +36,10 @@ function global:au_SearchReplace {
             "(?i)(^\s*checksumType64\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType64)'"
         }
 
-#        "picguard-pro.nuspec" = @{
-#            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`$1$($Latest.ReleaseNotes)`$2"
-#        }
+        "picguard-pro.nuspec" = @{
+            "(\<iconUrl\>).*?(\</iconUrl\>)"           = "`$1$($Latest.IconUrl)`$2"
+            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`$1`n  $($Latest.ReleaseNotes)`n`$2"
+        }
     }
 }
 
