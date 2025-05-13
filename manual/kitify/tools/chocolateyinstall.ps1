@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop'
 $url64      = 'https://github.com/kitifylabs/kitify/releases/download/v0.0.1%2B2/kitify_0.0.1%2B2_windows_x64.exe'
 
-$arch = [System.Environment]::Is64BitOperatingSystem
+$arch = Get-OSArchitectureWidth -Compare 64
 
 if (-not $arch) {
   Write-Error "This package does not support x86 architecture. Installation is not allowed."

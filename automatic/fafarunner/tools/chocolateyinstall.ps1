@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop'
 $url64      = 'https://github.com/FaFaRunner/FaFaRunner/releases/download/v2.0.1%2B379/fafarunner-2.0.1.379-windows-x64.exe'
 
-$arch = [System.Environment]::Is64BitOperatingSystem
+$arch = Get-OSArchitectureWidth -Compare 64
 
 if (-not $arch) {
   Write-Error "This package does not support x86 architecture. Installation is not allowed."

@@ -29,13 +29,13 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <version>0.0.1-alpha3</version>
     <packageSourceUrl>https://github.com/insco-inc/chocolatey-packages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <owners>kjxbyz</owners>
+    <owners>insco</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>Artify</title>
-    <authors>Insco</authors>
+    <authors>kjxbyz</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.artifylabs.org</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
@@ -51,14 +51,12 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <bugTrackerUrl>https://github.com/artifylabs/artify/issues</bugTrackerUrl>
     <tags>artify</tags>
     <summary>Ideas, Painting &amp; Art.</summary>
-    <description>
-      # Artify
+    <description><![CDATA[# Artify
 
-      &gt;Ideas, Painting &amp; Art.
-    </description>
-    <releaseNotes>
-      [CHANGELOG](https://github.com/artifylabs/artify/blob/main/CHANGELOG.md)
-    </releaseNotes>
+> Ideas, Painting & Art.
+
+]]></description>
+    <releaseNotes>https://github.com/artifylabs/artify/blob/main/CHANGELOG.md</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

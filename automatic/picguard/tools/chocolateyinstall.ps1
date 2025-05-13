@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop'
 $url64      = 'https://github.com/PicGuard/PicGuard/releases/download/v2.5.1%2B444/picguard-2.5.1.444-windows-setup-x64.exe'
 
-$arch = [System.Environment]::Is64BitOperatingSystem
+$arch = Get-OSArchitectureWidth -Compare 64
 
 if (-not $arch) {
   Write-Error "This package does not support x86 architecture. Installation is not allowed."

@@ -29,13 +29,13 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <version>2.5.1.444</version>
     <packageSourceUrl>https://github.com/insco-inc/chocolatey-packages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
-    <owners>kjxbyz</owners>
+    <owners>insco</owners>
     <!-- ============================== -->
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>PicGuard Pro</title>
-    <authors>Insco</authors>
+    <authors>kjxbyz</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.picguard.app</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->

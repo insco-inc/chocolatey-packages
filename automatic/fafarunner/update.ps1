@@ -33,9 +33,10 @@ function global:au_SearchReplace {
             "(?i)(^\s*checksumType64\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType64)'"
         }
 
-#        "fafarunner.nuspec" = @{
-#            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`$1$($Latest.ReleaseNotes)`$2"
-#        }
+        "fafarunner.nuspec" = @{
+            "(\<version\>).*?(\</version\>)"           = "`${1}$($Latest.Version)`$2"
+            "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
+        }
     }
 }
 
