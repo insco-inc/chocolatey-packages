@@ -22,7 +22,7 @@ environment:
   ATY_RELEASE_TOKEN:
     secure: OrV8sBUF3drDVJsllYml4fYnqGl0euu2fW6rH7R4MvwVYkjeJ0e0Pcld4TB2N364dMnTXa0Vjj3F8V7qJW0CqRMRgr9ODVSgpGq4xMMnmSuKg4wVHjABvamUcwlpjYQa # https://ci.appveyor.com/tools/encrypt
   FR_RELEASE_TOKEN:
-    secure: OrV8sBUF3drDVJsllYml4bj4c7r2uCDXKrI7IU31Jg1EUGbtS0aGxVXvhfEnn+oj7xFDf1KJp8GJfxGbrx+U1JSVwUjLw8J7ZkePCtzgyNs45y8qk9ZlITiMTRF7+8vB # https://ci.appveyor.com/tools/encrypt
+    secure: OrV8sBUF3drDVJsllYml4TWMpmH3Ch75Yld2jpZCVAnsybUt+bLo8ddkQZp8VGszd+BAOmbKNW90F7oSZjo8M6LTsv8qg7PV/CZ114/Nq7JmUODKuUD8zPLF+Xbvu/PA # https://ci.appveyor.com/tools/encrypt
   PG_RELEASE_TOKEN:
     secure: OrV8sBUF3drDVJsllYml4XJR+dbMbv/YLL5xlMaTrGssuwXhFacKCDbKDDXp7z0Br/kq36yKYr0bFUxjV/VBOJU7bS2wue2AGJnnDjOpiOBQcNLKELI36wD+BPLT9TbX # https://ci.appveyor.com/tools/encrypt
 
