@@ -53,6 +53,14 @@
       </a>
     </td>
   </tr>
+  <tr>
+    <td>yixee</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/yixee">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/yixee">
+      </a>
+    </td>
+  </tr>
 </table>
 
 ## Prerequisites
