@@ -61,6 +61,14 @@
       </a>
     </td>
   </tr>
+  <tr>
+    <td>linkon</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/linkon">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/linkon">
+      </a>
+    </td>
+  </tr>
 </table>
 
 ## Prerequisites
