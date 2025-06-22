@@ -14,6 +14,14 @@
     <th style="text-align: center">Version</th>
   </tr>
   <tr>
+    <td>fafarunner</td>
+    <td>
+      <a href="https://community.chocolatey.org/packages/fafarunner">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/fafarunner">
+      </a>
+    </td>
+  </tr>
+  <tr>
     <td>picguard</td>
     <td>
       <a href="https://community.chocolatey.org/packages/picguard">
@@ -30,26 +38,26 @@
     </td>
   </tr>
   <tr>
-    <td>fafarunner</td>
+    <td>connectra</td>
     <td>
-      <a href="https://community.chocolatey.org/packages/fafarunner">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/fafarunner">
+      <a href="https://community.chocolatey.org/packages/connectra">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/connectra">
       </a>
     </td>
   </tr>
   <tr>
-    <td>artify</td>
+    <td>dotdraw</td>
     <td>
-      <a href="https://community.chocolatey.org/packages/artify">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/artify">
+      <a href="https://community.chocolatey.org/packages/dotdraw">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/dotdraw">
       </a>
     </td>
   </tr>
   <tr>
-    <td>kitify</td>
+    <td>toolora</td>
     <td>
-      <a href="https://community.chocolatey.org/packages/kitify">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/kitify">
+      <a href="https://community.chocolatey.org/packages/toolora">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/toolora">
       </a>
     </td>
   </tr>
@@ -62,10 +70,10 @@
     </td>
   </tr>
   <tr>
-    <td>linkon</td>
+    <td>voicemeet</td>
     <td>
-      <a href="https://community.chocolatey.org/packages/linkon">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/linkon">
+      <a href="https://community.chocolatey.org/packages/voicemeet">
+        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/voicemeet">
       </a>
     </td>
   </tr>

@@ -8,9 +8,9 @@ $headers = @{
 }
 
 function global:au_GetLatest {
-    $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/kitifylabs/kitify/releases/latest" -Headers $headers
-    $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '-alpha')
-    $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.EndsWith("_windows_x64.exe")}).browser_download_url
+    $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/Toolora/toolora/releases/latest" -Headers $headers
+    $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '.')
+    $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.EndsWith("-windows-x64.exe")}).browser_download_url
 
     if (!$LatestURL64) {
         throw "64bit URL is missing!"
@@ -33,7 +33,7 @@ function global:au_SearchReplace {
             "(?i)(^\s*checksumType64\s*=\s*)('.*')" = "`$1'$($Latest.ChecksumType64)'"
         }
 
-        "kitify.nuspec" = @{
+        "toolora.nuspec" = @{
             "(\<version\>).*?(\</version\>)"           = "`${1}$($Latest.Version)`$2"
             "(\<releaseNotes\>).*?(\</releaseNotes\>)" = "`${1}$($Latest.ReleaseNotes)`$2"
         }

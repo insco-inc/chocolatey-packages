@@ -22,11 +22,11 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- This section is about this package, although id and version have ties back to the software -->
     <!-- id is lowercase and if you want a good separator for words, use '-', not '.'. Dots are only acceptable as suffixes for certain types of packages, e.g. .install, .portable, .extension, .template -->
     <!-- If the software is cross-platform, attempt to use the same id as the debian/rpm package(s) if possible. -->
-    <id>linkon</id>
+    <id>connectra</id>
     <!-- version should MATCH as closely as possible with the underlying software -->
     <!-- Is the version a prerelease of a version? https://docs.nuget.org/create/versioning#creating-prerelease-packages -->
     <!-- Note that unstable versions like 0.0.1 can be considered a released version, but it's possible that one can release a 0.0.1-beta before you release a 0.0.1 version. If the version number is final, that is considered a released version and not a prerelease. -->
-    <version>1.0.0-beta1</version>
+    <version>0.0.1-beta1</version>
     <packageSourceUrl>https://github.com/insco-inc/chocolatey-packages</packageSourceUrl>
     <!-- owners is a poor name for maintainers of the package. It sticks around by this name for compatibility reasons. It basically means you. -->
     <owners>insco</owners>
@@ -34,33 +34,33 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>LinkOn</title>
+    <title>Connectra</title>
     <authors>kjxbyz</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://www.linkonapp.com</projectUrl>
+    <projectUrl>https://www.connectra.dev</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
-    <iconUrl>https://raw.githubusercontent.com/linkonapp/linkon/main/logo/logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/Connectra/connectra/main/logo/logo.png</iconUrl>
     <copyright>Copyright © 2025 Insco. All rights reserved.</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
-    <licenseUrl>https://raw.githubusercontent.com/linkonapp/linkon/main/LICENSE</licenseUrl>
+    <licenseUrl>https://raw.githubusercontent.com/Connectra/connectra/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/linkonapp/linkon</projectSourceUrl>
+    <projectSourceUrl>https://github.com/Connectra/connectra</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
-    <bugTrackerUrl>https://github.com/linkonapp/linkon/issues</bugTrackerUrl>
-    <tags>linkon</tags>
-    <summary>LinkOn — Discover, Connect &amp; Belong.</summary>
-    <description><![CDATA[# LinkOn — Where Circles Connect.
+    <bugTrackerUrl>https://github.com/Connectra/connectra/issues</bugTrackerUrl>
+    <tags>connectra</tags>
+    <summary>Connectra — Discover, Connect &amp; Belong.</summary>
+    <description><![CDATA[# Connectra — Where Circles Connect.
 
-> *LinkOn — Discover, Connect & Belong.*
+> *Connectra — Discover, Connect & Belong.*
 >
 
 ## 🌐 Overview
 
-**LinkOn** is a social app designed for adults to build meaningful circles, expand valuable connections, and foster a true sense of belonging.
+**Connectra** is a social app designed for adults to build meaningful circles, expand valuable connections, and foster a true sense of belonging.
 
-Whether you're exploring new interests, growing your professional network, or simply connecting with like-minded people, **LinkOn** helps you find and nurture the circles that matter to you.
+Whether you're exploring new interests, growing your professional network, or simply connecting with like-minded people, **Connectra** helps you find and nurture the circles that matter to you.
 
 ## 🚀 Features
 
@@ -70,12 +70,12 @@ Whether you're exploring new interests, growing your professional network, or si
 - **Quality Conversations**: Tools designed to encourage genuine, meaningful exchanges.
 - **Events & Meetups**: Participate in both online and offline events to strengthen your connections.
 
-On LinkOn, it's not about adding more "friends" — it's about finding your people and building circles that enrich your life.
+On Connectra, it's not about adding more "friends" — it's about finding your people and building circles that enrich your life.
 
-**Join LinkOn today. Discover. Connect & Belong.**
+**Join Connectra today. Discover. Connect & Belong.**
 
 ]]></description>
-    <releaseNotes>https://github.com/linkonapp/linkon/blob/main/CHANGELOG.md</releaseNotes>
+    <releaseNotes>https://github.com/Connectra/connectra/blob/main/CHANGELOG.md</releaseNotes>
     <!-- =============================== -->
 
     <!-- Specifying dependencies and version ranges? https://docs.nuget.org/create/versioning#specifying-version-ranges-in-.nuspec-files -->

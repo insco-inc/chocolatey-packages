@@ -1,6 +1,6 @@
 
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/linkonapp/linkon/releases/download/v1.0.0%2B1.pre/linkon-1.0.0.1.pre-windows-setup-x64.exe'
+$url64      = 'https://github.com/Connectra/connectra/releases/download/v0.0.1%2B1.pre/connectra-0.0.1.1.pre-windows-x64.exe'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
@@ -14,9 +14,9 @@ $packageArgs = @{
   fileType      = 'exe'
   url64bit      = $url64
 
-  softwareName  = 'linkon*'
+  softwareName  = 'connectra*'
 
-  checksum64    = '2514e828a7b624b1fb659ecf4b2afad1c5840bdc30edd75711582894ccfbae92'
+  checksum64    = '79f3b2141ab8ac697320c019e2d6a6be95ae7f1c55340291213bf850033e7175'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

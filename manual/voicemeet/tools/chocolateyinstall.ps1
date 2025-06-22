@@ -1,6 +1,6 @@
-﻿
+
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/kitifylabs/kitify/releases/download/v0.0.1%2B2/kitify_0.0.1%2B2_windows_x64.exe'
+$url64      = 'https://github.com/VoiceMeet/voicemeet/releases/download/v0.0.1%2B1.pre/voicemeet-0.0.1.1.pre-windows-x64.exe'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
@@ -14,9 +14,9 @@ $packageArgs = @{
   fileType      = 'exe'
   url64bit      = $url64
 
-  softwareName  = 'kitify*'
+  softwareName  = 'voicemeet*'
 
-  checksum64    = '7b28e6f096f1094453f0423e87932ee93e087d933c2cc46de31e7bcdae8f4b9d'
+  checksum64    = 'd5b7d0d8187e1a117abe3666d3f59981cec247eb465220675ca6f076b9059d83'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

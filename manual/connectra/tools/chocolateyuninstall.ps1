@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop'
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'kitify*'
+  softwareName  = 'connectra*'
   fileType      = 'EXE'
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
