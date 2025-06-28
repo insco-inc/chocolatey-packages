@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/Toolora/toolora/releases/download/v0.0.1%2B4.pre/toolora-0.0.1.4.pre-windows-x64.exe'
+$url64      = 'https://github.com/Toolora/toolora/releases/download/v0.0.1%2B4.pre/toolora-0.0.1.4.pre-windows-setup-x64.exe'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'toolora*'
 
-  checksum64    = 'f763d66e54c6be7294768721bb45028b866792146e073589073a31bc67ecc703'
+  checksum64    = '02020298758287cb7e1d02f1f7ab840f12b26648fd658e641090f8a7072f2c4c'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
