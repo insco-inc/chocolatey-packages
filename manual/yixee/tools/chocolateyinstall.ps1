@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/yixee/yixee/releases/download/v1.0.0%2B1.pre/yixee-1.0.0.1.pre-windows-setup-x64.exe'
+$url64      = 'https://github.com/Yixee/yixee/releases/download/v0.0.1%2B1.pre/yixee-0.0.1.1.pre-windows-setup-x64.exe'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'yixee*'
 
-  checksum64    = '2514e828a7b624b1fb659ecf4b2afad1c5840bdc30edd75711582894ccfbae92'
+  checksum64    = '00ce758014350cbf096a99e686915cdd2da378e27a93ec273d73405ab60c1838'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'

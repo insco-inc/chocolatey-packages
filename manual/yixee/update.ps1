@@ -8,9 +8,9 @@ $headers = @{
 }
 
 function global:au_GetLatest {
-    $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/yixee/yixee/releases/latest" -Headers $headers
-    $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '-beta')
-    $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.EndsWith("_windows_x64.exe")}).browser_download_url
+    $LatestRelease = Invoke-RestMethod -UseBasicParsing -Uri "https://api.github.com/repos/Yixee/yixee/releases/latest" -Headers $headers
+    $LatestVersion = $LatestRelease.tag_name.Replace('v', '').Replace('+', '.')
+    $LatestURL64 = ($LatestRelease.assets | Where-Object {$_.name.EndsWith("-windows-setup-x64.exe")}).browser_download_url
 
     if (!$LatestURL64) {
         throw "64bit URL is missing!"
