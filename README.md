@@ -69,14 +69,6 @@
       </a>
     </td>
   </tr>
-  <tr>
-    <td>voicemeet</td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/voicemeet">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/voicemeet">
-      </a>
-    </td>
-  </tr>
 </table>
 
 ## Prerequisites
