@@ -1,6 +1,6 @@
 ﻿
 $ErrorActionPreference = 'Stop'
-$url64      = 'https://github.com/FaFaRunner/fafarunner/releases/download/v2.5.3%2B383/fafarunner-2.5.3.383-windows-setup-x64.exe'
+$url64      = 'https://github.com/fafarunner/fafarunner/releases/download/v2.5.4%2B384/fafarunner-2.5.4.384-windows-setup-x64.exe'
 
 $arch = Get-OSArchitectureWidth -Compare 64
 
@@ -16,7 +16,7 @@ $packageArgs = @{
 
   softwareName  = 'fafarunner*'
 
-  checksum64    = 'cbce04a3c404bd7583c6dfa33f4bc2abf7e5f84d179aff16da877db64adad867'
+  checksum64    = '7784044fc00333d4f3b631dc4bd277f922882fc5cea9143001c63c977f0d1e74'
   checksumType64= 'sha256'
 
   silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
