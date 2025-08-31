@@ -34,38 +34,6 @@
       </a>
     </td>
   </tr>
-  <tr>
-    <td>connectra</td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/connectra">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/connectra">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>dotdraw</td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/dotdraw">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/dotdraw">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>toolora</td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/toolora">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/toolora">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>yixee</td>
-    <td>
-      <a href="https://community.chocolatey.org/packages/yixee">
-        <img alt="Chocolatey Version" src="https://img.shields.io/chocolatey/v/yixee">
-      </a>
-    </td>
-  </tr>
 </table>
 
 ## License
