@@ -37,7 +37,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <title>FaFa Runner</title>
     <authors>kjxbyz</authors>
     <!-- projectUrl is required for the community feed -->
-    <projectUrl>https://www.fafarunner.com</projectUrl>
+    <projectUrl>https://fafarunner.com</projectUrl>
     <!-- There are a number of CDN Services that can be used for hosting the Icon for a package. More information can be found here: https://docs.chocolatey.org/en-us/create/create-packages#package-icon-guidelines -->
     <!-- Here is an example using Githack -->
     <iconUrl>https://raw.githubusercontent.com/fafarunner/fafarunner/main/logo/logo.png</iconUrl>
