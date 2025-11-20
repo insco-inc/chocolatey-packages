@@ -16,7 +16,7 @@ choco pack .\manual\artify\artify.nuspec
 
 ```powershell
 # Run as admini
-choco install artify --pre --version="0.0.1-alpha3" --source="C:\Users\ying\workspace\insco-inc\chocolatey-packages"
+choco install artify --pre --version="0.0.1-alpha3" --source="C:\Users\ying\workspace\qiazo\chocolatey-packages"
 ```
 
 # Push

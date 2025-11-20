@@ -23,7 +23,7 @@ environment:
     secure: OrV8sBUF3drDVJsllYml4XJR+dbMbv/YLL5xlMaTrGssuwXhFacKCDbKDDXp7z0Br/kq36yKYr0bFUxjV/VBOJU7bS2wue2AGJnnDjOpiOBQcNLKELI36wD+BPLT9TbX # https://ci.appveyor.com/tools/encrypt
 
   # Github token to commit pushed packages to repository
-  github_user_repo: insco-inc/chocolatey-packages
+  github_user_repo: qiazo/chocolatey-packages
   github_api_key:
     secure: dY2fUH/wE/TRLFv0pOpEUjvFsw/1xSaQuXREn7l6Je9swYgqJ6kA/Sw78WDsDxT4 # https://ci.appveyor.com/tools/encrypt
 
@@ -45,7 +45,7 @@ environment:
 
   # Chocolatey API key - to push updated packages
   api_key:
-    secure: 3HL0ADelr9OmnVMdGQ5V6DPQ3poQ6CI+X19cnu6zXeM6f7eaiL0IATEgPPuHTHhk # https://ci.appveyor.com/tools/encrypt
+    secure: ofu/xzMCay3JoIZLpZ6o9xnXWfkBUcqncrI/k6UIHM2v2Rpl0F2s/kFfGQuUAdE8 # https://ci.appveyor.com/tools/encrypt
 
   #Chocolatey version we want to use when checking for updates (usually latest).
   choco_version: '2.2.2'
